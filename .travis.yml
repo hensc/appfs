@@ -1,3 +1,4 @@
 language: c
 compiler: gcc
-script: cd ex7/schrezenmaier/ && make && make check
+before_scrpt: cd ex7/schrezenmaier
+script: make
