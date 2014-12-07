@@ -1,3 +1,2 @@
 language: c
 compiler: gcc
-before_install: cd ex7/schrezenmaier/
