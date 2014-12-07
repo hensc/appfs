@@ -1,4 +1,5 @@
 language: c
 compiler: gcc
-before_scrpt: cd ex7/schrezenmaier
-script: make
+script:
+	- make
+	- cd ex7/schrezenmaier
