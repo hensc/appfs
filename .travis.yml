@@ -1,4 +1,3 @@
 language: c
 compiler: gcc
-
-cd ex7/schrezenmaier/ && make && make check
+script: cd ex7/schrezenmaier/ && make && make check
